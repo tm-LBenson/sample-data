@@ -1,0 +1,58 @@
+const pets = [
+  {
+    id: 1,
+    name: 'Milo',
+    type: 'Dog',
+    breed: 'Beagle',
+    age: 2,
+    image: 'https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=500&q=80',
+    description: 'Friendly and playful. Loves walks and treats.',
+  },
+  {
+    id: 2,
+    name: 'Luna',
+    type: 'Cat',
+    breed: 'Tabby',
+    age: 1,
+    image: 'https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=500&q=80',
+    description: 'Curious and calm. Loves sunny windows and naps.',
+  },
+  {
+    id: 3,
+    name: 'Charlie',
+    type: 'Dog',
+    breed: 'Golden Retriever',
+    age: 3,
+    image: 'https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=500&q=80',
+    description: 'Very social and great with families.',
+  },
+  {
+    id: 4,
+    name: 'Daisy',
+    type: 'Rabbit',
+    breed: 'Mini Lop',
+    age: 2,
+    image: 'https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=500&q=80',
+    description: 'Gentle and sweet. Likes quiet spaces and fresh veggies.',
+  },
+  {
+    id: 5,
+    name: 'Rocky',
+    type: 'Dog',
+    breed: 'Boxer',
+    age: 4,
+    image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=500&q=80',
+    description: 'Energetic and loyal. Loves playing outside.',
+  },
+  {
+    id: 6,
+    name: 'Coco',
+    type: 'Cat',
+    breed: 'Siamese',
+    age: 5,
+    image: 'https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=500&q=80',
+    description: 'Smart and talkative. Enjoys attention and toys.',
+  },
+]
+
+export default pets
